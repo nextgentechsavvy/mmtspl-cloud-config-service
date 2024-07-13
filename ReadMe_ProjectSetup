@@ -1,0 +1,37 @@
+
+
+		***************  mmtspl-cloud-config-server port : 9006 *******************
+SpringBoot
+SpringCloudConfigServer
+Spring Exceptions
+Spring JUnit Testing
+
+Start up the application :
+	1. Build and Run the application using Maven Build with   spring-boot:run
+	
+Url
+	
+   ---------------------------------------   Employee  -----------------------------------------------------
+   http://localhost:9006/cloud-config-service-employee-service/frontcontrollerurls
+
+   ---------------------------------------   Address  -----------------------------------------------------
+   http://localhost:9006/cloud-config-service-address-service/frontcontrollerurls
+
+   ---------------------------------------   Department  -----------------------------------------------------
+   http://localhost:9006/cloud-config-service-department-service/frontcontrollerurls
+
+   ---------------------------------------   Customer  -----------------------------------------------------
+   http://localhost:9006/cloud-config-service-customer-service/frontcontrollerurls
+
+   ---------------------------------------   Product  -----------------------------------------------------
+   http://localhost:8765/mmtspl-cloud-config-service/cloud-config-service-product-service/frontcontrollerurls
+
+   ---------------------------------------   User  -----------------------------------------------------
+   http://localhost:9006/cloud-config-service-user-service/frontcontrollerurls
+
+  	
+   ---------------------------------------   Local Host  -----------------------------------------------------
+   http://localhost:9006/cloud-config-service-local-host/getLocalHostAddress
+
+   
+   
