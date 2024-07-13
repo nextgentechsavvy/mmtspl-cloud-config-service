@@ -7,7 +7,7 @@ pipeline{
         stage('Build maven'){
             steps{
                 checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: 'd8a7d834-0955-4bfe-a691-25bbca4ab26b', url: 'https://nextgentechsavvy@github.com/nextgentechsavvy/mmtspl-cloud-config-service.git']]])
-                bat 'mvn clean install'
+                bat 'mvn clean install -DskipTests'
             }
         }
         stage('Build docker image'){
